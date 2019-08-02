@@ -1,0 +1,30 @@
+{
+  "name": "backendcs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csbuildweek/backEndCS.git"
+  },
+  "author": "JP",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/csbuildweek/backEndCS/issues"
+  },
+  "homepage": "https://github.com/csbuildweek/backEndCS#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "express-validator": "^6.1.1",
+    "mongoose": "^5.6.7"
+  },
+  "devDependencies": {
+    "nodemon": "^1.19.1"
+  }
+}
